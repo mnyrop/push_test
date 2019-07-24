@@ -1,5 +1,8 @@
 language: ruby
 rvm:
   - 2.5
+branches:
+  except:
+    - static
 script:
   - bundle exec jekyll push static
